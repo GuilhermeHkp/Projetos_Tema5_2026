@@ -1,6 +1,6 @@
 # Projetos_GCHE Solutions_2026
-Grupo de auxílio GITHUB |
-Carlos Eduardo - FullStack + BD |
+Grupo de auxílio GITHUB |  
+Carlos Eduardo - FullStack + BD |  
 Eduarda Mazzari - FrontEnding + Design - LIDER |
 Guilherme Kodama - FrontEnding + Design - ANALISTA |
 Henzo Montanari - BD + BackEnding |
