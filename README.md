@@ -1,4 +1,5 @@
-# Projetos_GCHE Solutions_2026
+# Projetos_BELUGA_2026
+nome do Grupo:GCHE solutions
 Grupo de auxílio GITHUB |  
 Carlos Eduardo - FullStack + BD |  
 Eduarda Mazzari - FrontEnding + Design - LIDER |  
