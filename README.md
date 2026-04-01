@@ -9,6 +9,7 @@ GCHE Solutions |
 Consistiria em focar nos indivíduos com pessoas que têm deficiência visuais no setor indústrial. Especialmente no controle e identificação de estoque. Ele permitiria que o trabalhador identificasse peças por meio de sensores, câmeras ou outros dispositivos, fazendo a leitura e o reconhecimento do objeto. E após isso, o sistema consulta um banco de dados e fornece ao usuário informações detalhadas em formato de áudio, como nome da peça, tipo, cor, localização e outras características relevantes.
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/55e019b2-c98a-4dc4-a4ec-a64650730596" />
+<img width="2048" height="1118" alt="569127385-55e019b2-c98a-4dc4-a4ec-a64650730596" src="https://github.com/user-attachments/assets/24e281b9-6a62-41a1-84f1-e8eed59a878a" />
 
 
 Persona 
