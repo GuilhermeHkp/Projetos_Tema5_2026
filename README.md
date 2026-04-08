@@ -11,7 +11,12 @@ Consistiria em focar nos indivíduos com pessoas que têm deficiência visuais n
 
 Definição da Persona 
 Matheus, 26 anos, apresenta problemas visuais sevéros. Ele faz parte da equipe de controle de estoque da indùstria que trabalha, se sente como alguém que não consegue agregar muito à sua equipe, e que não é capaz de cumprir tudo o que lhe é pedido, já que a sua dificuldade individual o atrapalha muito em diversos fatores. A empresa não consegue oferecer tantos auxílios à essas pessoas que tem essa particularidade, apresentando faltas de maneiras incluidoras como a acessibilidade e inclusão, o dia-a-dia de Matheus no ambiente de trabalho é dificultoso e intenso. Outros aspecos a serem notados são os sistemas adotados pela a empresa, ele não possui contraste adequado e nem um suporte de leitura que o ajude e facilite mais, quebrando essas barreiras. A falta de etiquetas e identificação é outra dor de Matheus, já que muitas embalagens de produtos não possuem etiquetas que sejam fáceis de diferenciar, dificultando a sua distinção entre itens de tamanhos similares. 
+Logo do projeto:  
   <img width="1349" height="784" alt="Gemini_Generated_Image_sy6xmhsy6xmhsy6x" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
+
+Logo da empresa:  
+![unnamed](https://github.com/user-attachments/assets/82ba0647-1cf4-4db4-9016-d55ea8c1f4a0)
+
 
 Caminho: 
 Uso do Python version 3.11 ou Java, Cabe ao reponsável Beck-end decidir qual à trabalhar.
