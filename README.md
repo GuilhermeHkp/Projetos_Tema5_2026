@@ -18,4 +18,8 @@ Uso do Python version 3.11 ou Java, Cabe ao reponsável Beck-end decidir qual à
 OBS: O código necessita o import e download do TensorFlow, Numpy e PIL e do ambiente virtual venv (py -3.11 -m venv venv);  
 OBS: Para que seja possível o Python identificar o objeto, se, salvo no Teachable estiver em MODELO de tamanho X(por exemplo 64x64) a grade escolhida no Python deve também ter o MESMO tamanho no código;  
 OBS: Uso da GrayScle (RGB) deve ter o mesmo número, por exemplo se salvo no aplicativo: [1, 96, 96, 1], ou seja classe 1 (preto e branco) então no código também deve ter o mesmo tamanho.  
-https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status
+LINK GIRO 
+https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status  
+
+LINK WIREFRAME REFATORADO  
+https://canva.link/ir4e8zw0oelkm43
