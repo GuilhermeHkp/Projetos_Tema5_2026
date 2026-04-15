@@ -18,4 +18,7 @@ LINK GIRO
 https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status  
 
 LINK WIREFRAME REFATORADO  
-https://canva.link/ir4e8zw0oelkm43
+https://canva.link/ir4e8zw0oelkm43  
+
+LINK EXCEL
+https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0
