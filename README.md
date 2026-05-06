@@ -14,7 +14,7 @@ Logo do projeto:
 Logo da empresa:  
 ![unnamed](https://github.com/user-attachments/assets/82ba0647-1cf4-4db4-9016-d55ea8c1f4a0)
 
-LINK GIRO   
+LINK JIRA  
 https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status  
 
 LINK WIREFRAME REFATORADO  
