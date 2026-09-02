@@ -21,4 +21,4 @@ LINK WIREFRAME REFATORADO
 https://canva.link/ir4e8zw0oelkm43  
 
 LINK EXCEL  
-[https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1KIqELjtidlkM0PUhJVhmieFy42oYHACb/edit?gid=686155116#gid=686155116)
+(https://docs.google.com/spreadsheets/d/1KIqELjtidlkM0PUhJVhmieFy42oYHACb/edit?gid=686155116#gid=686155116)
