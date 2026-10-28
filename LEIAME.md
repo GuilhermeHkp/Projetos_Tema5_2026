@@ -2,7 +2,7 @@
 
 # Projeto: BELUGA 2026
 **Empresa:** GCHE Solutions  
-**Área:** Ambiente Industrial – Controle e Identificação de Estoque  
+**Área:** Mercado de trabalho – Controle e Identificação de Estoque  
 **Responsáveis:** Eduarda Mazzari, Guilherme Hideki 
 Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 
@@ -10,7 +10,7 @@ Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 
 ## 1. Escopo
 
-O Projeto BELUGA 2026 tem como finalidade desenvolver um sistema de identificação e conferência de objetos por meio de visão computacional, proporcionando maior acessibilidade para trabalhadores com deficiência visual no ambiente industrial.
+O Projeto BELUGA 2026 tem como finalidade desenvolver um sistema de identificação e conferência de objetos por meio de visão computacional, proporcionando maior acessibilidade para trabalhadores com deficiência visual no mercado de trabalho.
 O sistema utiliza uma câmera para capturar imagens de peças e realizar seu reconhecimento por meio de inteligência artificial. Após a identificação, as informações são processadas e apresentadas ao usuário por meio de áudio, permitindo consultar características dos objetos e realizar conferências de estoque.
 Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, histórico de registros e controle de acesso, buscando oferecer maior autonomia aos trabalhadores.
 
