@@ -289,21 +289,7 @@ Permite localizar produtos cadastrados por meio de recursos de busca e filtragem
 
 Prevê a utilização de recursos de suporte para auxiliar usuários que apresentem dificuldades durante a utilização do sistema.
 
-## 10. Equipe de Desenvolvimento
 
-**Carlos Eduardo Vicente**  
-Função: Full-Stack e Banco de Dados.
-
-**Eduarda Mazzari**  
-Função: Design.  
-Cargo: Líder.
-
-**Guilherme Hideki Kodama Prajo**  
-Função: Front-End e Design.  
-Cargo: Analista.
-
-**Henzo Montanari**  
-Função: Banco de Dados e Back-End.
 
 **Ferramentas de organização:**
 
