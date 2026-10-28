@@ -12,9 +12,7 @@
 ## 1. Escopo
 
 O Projeto BELUGA 2026 tem como finalidade desenvolver um sistema de identificação e conferência de objetos por meio de visão computacional, proporcionando maior acessibilidade para trabalhadores com deficiência visual no ambiente industrial.
-
 O sistema utiliza uma câmera para capturar imagens de peças e realizar seu reconhecimento por meio de inteligência artificial. Após a identificação, as informações são processadas e apresentadas ao usuário por meio de áudio, permitindo consultar características dos objetos e realizar conferências de estoque.
-
 Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, histórico de registros e controle de acesso, buscando oferecer maior autonomia aos trabalhadores.
 
 ## 2. Objetivos do Projeto
@@ -25,51 +23,26 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **Identificação de Objetos:** Desenvolver um sistema capaz de reconhecer peças por meio de câmeras e inteligência artificial.
 
-**Conferência de Estoque:** Facilitar a verificação dos produtos, permitindo identificar e contabilizar objetos durante os processos de conferência.
-
 **Interface Acessível:** Desenvolver uma interface simples, com contraste adequado, botões intuitivos e recursos de acessibilidade.
 
 **Organização de Informações:** Disponibilizar funcionalidades de cadastro, histórico e pesquisa para facilitar o gerenciamento dos objetos registrados.
-
-**Segurança:** Implementar diferentes níveis de acesso, garantindo que determinadas operações sejam realizadas apenas por usuários autorizados.
 
 ## 3. Análise de Riscos
 
 ### Falhas na Identificação dos Objetos
 
 **Risco:** O sistema pode apresentar dificuldades para identificar objetos semelhantes, principalmente quando possuem formatos, dimensões ou características visuais próximas.
-
-**Solução:** Realizar treinamentos com imagens dos objetos, utilizando diferentes posições e condições de iluminação. Aplicar ajustes no modelo de reconhecimento e realizar testes para melhorar sua precisão.
+**Solução:** Realizar treinamentos com imagens dos objetos, utilizando diferentes posições e condições de iluminação.
 
 ### Problemas de Iluminação
 
 **Risco:** A iluminação inadequada pode comprometer a captura das imagens e reduzir a confiabilidade da identificação.
-
 **Solução:** Utilizar uma estrutura de iluminação integrada à câmera, proporcionando condições mais uniformes durante a captura dos objetos.
 
 ### Dificuldades de Acessibilidade
 
 **Risco:** Trabalhadores com deficiência visual podem encontrar dificuldades para utilizar determinadas funcionalidades do sistema.
-
 **Solução:** Desenvolver uma interface com alto contraste, elementos de fácil identificação, navegação simplificada e retorno de informações por áudio.
-
-### Problemas Técnicos
-
-**Risco:** Falhas na integração entre Front-End, Back-End, banco de dados e modelo de reconhecimento podem comprometer o funcionamento do sistema.
-
-**Solução:** Realizar testes de integração, revisar as funcionalidades e corrigir os problemas identificados durante o desenvolvimento.
-
-### Segurança e Controle de Acesso
-
-**Risco:** Usuários sem autorização podem tentar modificar ou excluir informações cadastradas.
-
-**Solução:** Implementar diferentes perfis de acesso, restringindo determinadas operações aos usuários administradores.
-
-### Desempenho do Sistema
-
-**Risco:** O processamento das imagens pode apresentar lentidão, comprometendo o tempo de resposta e a experiência do usuário.
-
-**Solução:** Otimizar o processamento das imagens, avaliar o desempenho do modelo e realizar testes para reduzir o tempo entre a identificação e o retorno auditivo.
 
 ## 4. Cronograma
 
@@ -154,27 +127,27 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 ### Pessoal
 
-**Desenvolvedores de Software:** Responsáveis pelo desenvolvimento, integração e manutenção das funcionalidades do sistema.
+**Desenvolvedores de Software:** Guilherme Hideki Kodama Prajo; Eduarda Priscila Mazzari;  Carlos Eduardo Franco Vicente; Henzo Montanari Rodrigues.
 
-**Equipe de Front-End:** Responsável pelo desenvolvimento das interfaces, acessibilidade e experiência do usuário.
+**Equipe de Front-End:** Guilherme Hideki Kodama Prajo ; Eduarda Priscila Mazzari.
 
-**Equipe de Back-End:** Responsável pelo processamento das informações, integração com o modelo de reconhecimento e funcionamento das operações.
+**Equipe de Back-End:** Carlos Eduardo Franco Vicente; Henzo Montanari Rodrigues.
 
 **Responsável pelo Banco de Dados:** Responsável pela estruturação, armazenamento e gerenciamento das informações.
 
-**Liderança do Projeto:** Responsável pela organização das atividades e acompanhamento das entregas.
+**Liderança do Projeto:** Guilherme Hideki e Eduarda Mazzari.
 
 ### Tecnologia
 
-**Visual Studio Code:** Ambiente utilizado para o desenvolvimento do software.
+**Visual Studio Code:** HTML/Css.
 
-**Git e GitHub:** Ferramentas para versionamento, armazenamento e organização do código.
+**Git e GitHub:*" Armazenamento e organização do código.
 
 **Python:** Linguagem utilizada no desenvolvimento do Back-End e na integração com o reconhecimento de objetos.
 
 **HTML, CSS e JavaScript:** Tecnologias utilizadas no desenvolvimento das interfaces e funcionalidades do Front-End.
 
-**YOLO:** Modelo de visão computacional utilizado para identificar e localizar objetos nas imagens.
+**YOLO:** Modelo de identificação e localizar objetos nas imagens.
 
 **Banco de Dados:** Responsável pelo armazenamento dos cadastros, informações dos objetos e registros do sistema.
 
@@ -184,183 +157,119 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 ### Equipamentos
 
-**Computadores e Notebooks:** Utilizados no desenvolvimento, treinamento e execução do sistema.
+**Computadores e Notebooks**;
 
-**Webcam:** Equipamento responsável pela captura das imagens dos objetos.
+**Webcam**;
 
-**Estrutura de Iluminação:** Utilizada para melhorar as condições de captura das imagens.
+**Estrutura de Iluminação**
 
-**Suporte Físico:** Estrutura destinada ao posicionamento e à sustentação da câmera e da iluminação.
-
-### Comunicação
-
-Ferramentas de comunicação online utilizadas para reuniões, acompanhamento das atividades e compartilhamento de informações entre os integrantes.
 
 ## 6. Custos
 
 ### Pessoal
 
-O desenvolvimento do projeto é realizado pelos quatro integrantes da equipe GCHE Solutions como parte das atividades acadêmicas do curso técnico.
+4 desenvolvedores trabalhando por 2 dias na semana.
 
-Não foram definidos custos de contratação de profissionais.
+Gerente de Projeto
+1 lider de projeto.
+1 analista  de projeto.
 
 ### Tecnologia
 
-**Visual Studio Code:** Gratuito.
+**Visual Studio Code:Custo total (considerando licenças): $0
 
-**Git e GitHub:** Utilização de recursos gratuitos.
+**Git e GitHub:** Custo total (considerando licenças): $0
 
-**Python:** Gratuito.
+**Python:** Custo total (considerando licenças): $0
 
-**HTML, CSS e JavaScript:** Gratuitos.
+**HTML, CSS e JavaScript:** Custo total (considerando licenças): $0
 
-**YOLO:** Utilização de ferramentas e bibliotecas de código aberto, conforme suas respectivas licenças.
+**YOLO:** Custo total (considerando licenças): $0
 
-**Jira:** Utilização para gerenciamento das atividades.
+**Jira:** Custo total (considerando licenças): $0
 
 ### Equipamentos
 
-**Computadores:** Equipamentos utilizados pela equipe.
+**Computadores:**Custo total: R$00,00
 
-**Webcam:** Equipamento utilizado para identificação dos objetos.
+**Webcam:** Custo total: R$00,00
 
-**Iluminação:** Componentes destinados à estrutura de captura.
+**Iluminação:** Custo total: R$00,00
 
-**Suporte:** Estrutura física desenvolvida para posicionamento da câmera.
+**Suporte:** Custo total: R$00,00
 
 ### Custo Total
-
-O custo total deverá considerar os valores efetivamente gastos com equipamentos, materiais e demais recursos utilizados.
-
-Os valores ainda precisam ser consolidados para apresentação do orçamento final.
+Pessoal: $00,00
+Tecnologia: R$00,00
+Equipamentos: R$00,00
 
 ## 7. Documentação
 
 ### Requisitos Funcionais
 
-**RF01 – Captura de Imagens**
+**RF01**
 
 Como trabalhador, gostaria de capturar imagens dos objetos por meio de uma câmera.
 
-**Critério de Aceitação:** O sistema deverá permitir a captura de imagens para processamento e identificação dos objetos.
-
-**RF02 – Retorno Auditivo**
+**RF02**
 
 Como trabalhador, gostaria de ouvir informações previamente cadastradas sobre os objetos identificados.
 
-**Critério de Aceitação:** O sistema deverá fornecer informações como nome, cor e descrição por meio de áudio.
-
-**RF03 – Repetição de Informações**
+**RF03**
 
 Como trabalhador, gostaria de repetir a última informação apresentada pelo sistema.
 
-**Critério de Aceitação:** O sistema deverá disponibilizar um recurso para repetir o retorno auditivo.
-
-**RF04 – Atualização de Quantidades**
+**RF04**
 
 Como trabalhador, gostaria que o sistema atualizasse automaticamente as quantidades de itens no estoque.
 
-**Critério de Aceitação:** O sistema deverá permitir a atualização das quantidades conforme as operações realizadas.
-
-**RF05 – Cadastro de Objetos**
+**RF05**
 
 Como administrador, gostaria de cadastrar novas peças e suas características.
 
-**Critério de Aceitação:** O sistema deverá permitir o registro de objetos com suas respectivas informações.
-
-**RF06 – Gerenciamento de Cadastros**
+**RF06**
 
 Como administrador, gostaria de editar as informações dos objetos cadastrados.
 
 **Critério de Aceitação:** O sistema deverá permitir a alteração das informações por usuários autorizados.
 
-**RF07 – Histórico**
+**RF07**
 
 Como trabalhador, gostaria de consultar os registros dos objetos que passaram pela câmera.
 
-**Critério de Aceitação:** O sistema deverá apresentar um histórico contendo informações sobre as operações realizadas.
-
-**RF08 – Pesquisa**
-
-Como trabalhador, gostaria de pesquisar e filtrar objetos cadastrados.
-
-**Critério de Aceitação:** O sistema deverá disponibilizar recursos de pesquisa para localizar informações registradas.
-
 ### Requisitos Não Funcionais
 
-**RNF01 – Facilidade de Manuseio**
+**RNF01**
 
 A estrutura física deverá permitir o manuseio adequado pelo auxiliador.
 
-**RNF02 – Interface Simplificada**
+**RNF02**
 
 O sistema deverá apresentar uma interface simples e acessível.
 
-**RNF03 – Segurança**
+**RNF03**
 
 O sistema deverá possuir mecanismos de proteção e controle de acesso.
 
-**RNF04 – Tempo de Resposta**
+**RNF04**
 
 O tempo entre a identificação do objeto e o retorno auditivo deverá ser inferior a dois segundos.
 
-**RNF05 – Resistência Física**
+**RNF05**
 
 A estrutura deverá considerar condições de utilização em ambientes industriais, incluindo exposição à poeira e riscos de impactos.
 
-**RNF06 – Desempenho**
+**RNF06**
 
 O sistema deverá permitir o cadastro e a consulta de informações sem apresentar lentidão significativa.
 
 ## 8. Avaliação do Projeto
-
-### Precisão na Identificação dos Objetos
-
-**Objetivo:** Avaliar a capacidade do sistema de reconhecer corretamente os objetos apresentados à câmera.
-
-**Métrica:** Quantidade de identificações corretas em relação ao total de testes realizados.
-
-### Tempo de Resposta
-
-**Objetivo:** Verificar se o sistema consegue fornecer as informações auditivas em menos de dois segundos.
-
-**Métrica:** Tempo médio entre a captura da imagem e a reprodução do áudio.
-
-### Acessibilidade da Interface
-
-**Objetivo:** Garantir que trabalhadores com deficiência visual consigam utilizar as principais funcionalidades.
-
-**Métrica:** Quantidade de tarefas realizadas corretamente durante testes de usabilidade.
-
-### Confiabilidade da Conferência
-
-**Objetivo:** Avaliar a capacidade do sistema de identificar e contabilizar os objetos durante a conferência.
-
-**Métrica:** Comparação entre as quantidades identificadas pelo sistema e as quantidades reais dos objetos.
-
-### Funcionamento do Banco de Dados
-
-**Objetivo:** Garantir o armazenamento e a recuperação das informações cadastradas.
-
-**Métrica:** Quantidade de operações de cadastro, consulta e atualização executadas corretamente.
-
-### Segurança de Acesso
-
-**Objetivo:** Garantir que as funcionalidades administrativas sejam utilizadas apenas por usuários autorizados.
-
-**Métrica:** Resultados dos testes de permissões e restrições de acesso.
 
 ### Desempenho Geral
 
 **Objetivo:** Verificar a estabilidade do sistema durante sua utilização.
 
 **Métrica:** Tempo de funcionamento, quantidade de falhas e resultados dos testes de integração.
-
-### Cumprimento do Cronograma
-
-**Objetivo:** Concluir o desenvolvimento e a apresentação do projeto dentro do período estabelecido.
-
-**Métrica:** Comparação entre as atividades planejadas e as entregas efetivamente realizadas.
 
 ## 9. Funcionamento do Sistema
 
@@ -396,7 +305,7 @@ Prevê a utilização de recursos de suporte para auxiliar usuários que apresen
 Função: Full-Stack e Banco de Dados.
 
 **Eduarda Mazzari**  
-Função: Front-End e Design.  
+Função: Design.  
 Cargo: Líder.
 
 **Guilherme Hideki Kodama**  
@@ -406,10 +315,6 @@ Cargo: Analista.
 **Henzo Montanari**  
 Função: Banco de Dados e Back-End.
 
-## 11. Documentação Complementar
-
-A documentação complementar do Projeto BELUGA reúne os registros das sprints, requisitos, planejamento, wireframes e demais informações relacionadas ao desenvolvimento.
-
 **Ferramentas de organização:**
 
 - [Jira – Gerenciamento das Sprints](https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status)
@@ -417,28 +322,12 @@ A documentação complementar do Projeto BELUGA reúne os registros das sprints,
 - GitHub: Versionamento e armazenamento do código.
 - Planilhas: Organização das tarefas e responsabilidades.
 
-## 12. Apresentação do Projeto
-
-O Projeto BELUGA 2026 conta com uma página de apresentação que reúne informações sobre sua proposta, funcionalidades, tecnologias e equipe de desenvolvimento.
 
 ### QR Code
 
-![QR Code do Projeto BELUGA](https://github.com/user-attachments/assets/82ba0647-1cf4-4db4-9016-d55ea8c1f4a0)
+
 
 ### Apresentação Visual
 
 <img width="100%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
-## 13. Considerações Finais
-
-O Projeto BELUGA 2026 busca contribuir para a inclusão de pessoas com deficiência visual no ambiente industrial por meio de uma solução tecnológica voltada à identificação e à conferência de objetos.
-
-A utilização de visão computacional, recursos auditivos e interfaces acessíveis permite desenvolver uma ferramenta com potencial para ampliar a autonomia dos trabalhadores e facilitar atividades relacionadas ao controle de estoque.
-
-O projeto também representa a aplicação prática dos conhecimentos adquiridos durante o curso Técnico em Desenvolvimento de Sistemas, envolvendo desenvolvimento Front-End, Back-End, banco de dados, inteligência artificial e gerenciamento de projetos.
-
----
-
-**GCHE Solutions – Projeto BELUGA 2026**
-
-*A tecnologia só avança quando todos avançam juntos.*
