@@ -22,10 +22,6 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **Identificação de Objetos:** Desenvolver um sistema capaz de reconhecer peças por meio de câmeras e inteligência artificial.
 
-**Interface Acessível:** Desenvolver uma interface simples, com contraste adequado, botões intuitivos e recursos de acessibilidade.
-
-**Organização de Informações:** Disponibilizar funcionalidades de cadastro, histórico e pesquisa para facilitar o gerenciamento dos objetos registrados.
-
 ## 3. Análise de Riscos
 
 ### Falhas na Identificação dos Objetos
@@ -37,11 +33,6 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **Risco:** A iluminação inadequada pode comprometer a captura das imagens e reduzir a confiabilidade da identificação.
 **Solução:** Utilizar uma estrutura de iluminação integrada à câmera, proporcionando condições mais uniformes durante a captura dos objetos.
-
-### Dificuldades de Acessibilidade
-
-**Risco:** Trabalhadores com deficiência visual podem encontrar dificuldades para utilizar determinadas funcionalidades do sistema.
-**Solução:** Desenvolver uma interface com alto contraste, elementos de fácil identificação, navegação simplificada e retorno de informações por áudio.
 
 ## 4. Cronograma
 
