@@ -8,7 +8,6 @@
 - Área: Ambiente Industrial
 - Responsáveis: Eduarda Mazzaria, Guilherme Hideki, Carlos Eduardo, Henzo Montanari
 ## 1.Escopo
---
 O Projeto BELUGA 2026 tem como foco pessoas com deficiência visual no setor industrial, especialmente nas atividades de controle e identificação de estoque. O sistema permite que o trabalhador identifique peças por meio de câmeras, realizando a captura e o reconhecimento dos objetos. Após a identificação, o sistema consulta um banco de dados e fornece ao usuário informações previamente cadastradas em formato de áudio, como nome da peça, cor, descrição e outras características relevantes. O objetivo é promover maior acessibilidade e inclusão de pessoas com deficiência visual no ambiente industrial.
 
 
