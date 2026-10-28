@@ -12,7 +12,7 @@ Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 
 O Projeto BELUGA 2026 tem como finalidade desenvolver um sistema de identificação e conferência de objetos por meio de visão computacional, proporcionando maior acessibilidade para trabalhadores com deficiência visual no mercado de trabalho.
 O sistema utiliza uma câmera para capturar imagens de peças e realizar seu reconhecimento por meio de inteligência artificial. Após a identificação, as informações são processadas e apresentadas ao usuário por meio de áudio, permitindo consultar características dos objetos e realizar conferências de estoque.
-Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, histórico de registros e controle de acesso, buscando oferecer maior autonomia aos trabalhadores.
+Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, histórico de registros e controle de acesso, buscando oferecer maior autonomia aos trabalhadores, promovendo acessibilidade e autonomia ao usuário.
 
 ## 2. Objetivos do Projeto
 
@@ -137,7 +137,7 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **HTML, CSS e JavaScript:** Utilizadas no desenvolvimento das interfaces e funcionalidades do Front-End.
 
-**YOLO:** Modelo de identificação e localizar objetos nas imagens.
+**YOLO:** Modelo de identificação e localizar objetos nas imagens, utilizado como base para a identificação própria dos objetos.
 
 **Banco de Dados:** Responsável pelo armazenamento dos cadastros, informações dos objetos e registros do sistema.
 
@@ -158,40 +158,13 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 ### Pessoal
 
-4 desenvolvedores trabalhando por 2 dias na semana.
+4 desenvolvedores trabalhando por 6 horas semanais.
 
-Gerente de Projeto
+Gerente de Projeto:
 1 lider de projeto.
 1 analista  de projeto.
 
-### Tecnologia
 
-**Visual Studio Code:Custo total (considerando licenças): $0
-
-**Git e GitHub:** Custo total (considerando licenças): $0
-
-**Python:** Custo total (considerando licenças): $0
-
-**HTML, CSS e JavaScript:** Custo total (considerando licenças): $0
-
-**YOLO:** Custo total (considerando licenças): $0
-
-**Jira:** Custo total (considerando licenças): $0
-
-### Equipamentos
-
-**Computadores:**Custo total: R$00,00
-
-**Webcam:** Custo total: R$00,00
-
-**Iluminação:** Custo total: R$00,00
-
-**Suporte:** Custo total: R$00,00
-
-### Custo Total
-Pessoal: $00,00
-Tecnologia: R$00,00
-Equipamentos: R$00,00
 
 ## 7. Documentação
 
@@ -297,6 +270,6 @@ Prevê a utilização de recursos de suporte para auxiliar usuários que apresen
 - [Wireframes do Projeto](https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0)
 
 ### QR Code
-<img width="500" height="500" alt="codigo_QR" src="https://github.com/user-attachments/assets/b11ef3cf-5d5a-4679-9254-44aec3477a6f" />
+
 
 
