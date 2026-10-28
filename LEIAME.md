@@ -321,6 +321,5 @@ Função: Banco de Dados e Back-End.
 
 ### QR Code
 
-### Apresentação Visual
-<img width="100%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
+
 
