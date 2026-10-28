@@ -123,27 +123,27 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **Equipe de Back-End:** Carlos Eduardo Franco Vicente; Henzo Montanari Rodrigues.
 
-**Responsável pelo Banco de Dados:** Responsável pela estruturação, armazenamento e gerenciamento das informações.
-
 **Liderança do Projeto:** Guilherme Hideki e Eduarda Mazzari.
 
 ### Tecnologia
 
-**Visual Studio Code:** HTML/Css.
+**Visual Studio Code:** HTML/Css/Python/Yolo.
 
-**Git e GitHub:*" Armazenamento e organização do código.
+**Banco de Dados:** MySql.
+
+**Online:** GitHub
 
 **Python:** Linguagem utilizada no desenvolvimento do Back-End e na integração com o reconhecimento de objetos.
 
-**HTML, CSS e JavaScript:** Tecnologias utilizadas no desenvolvimento das interfaces e funcionalidades do Front-End.
+**HTML, CSS e JavaScript:** Utilizadas no desenvolvimento das interfaces e funcionalidades do Front-End.
 
 **YOLO:** Modelo de identificação e localizar objetos nas imagens.
 
 **Banco de Dados:** Responsável pelo armazenamento dos cadastros, informações dos objetos e registros do sistema.
 
-**Node.js e Express:** Tecnologias utilizadas no desenvolvimento da Landing Page.
+**Node.js e Express:** Tecnologias utilizadas na Landing Page.
 
-**Jira:** Ferramenta utilizada para o acompanhamento das atividades e organização das sprints.
+**Jira:** Utilizada para o acompanhamento das atividades e organização das sprints.
 
 ### Equipamentos
 
