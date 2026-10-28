@@ -4,7 +4,7 @@
 **Empresa:** GCHE Solutions  
 **Área:** Ambiente Industrial – Controle e Identificação de Estoque  
 **Instituição:** SENAI Antônio Adolpho Lobbe – São Carlos  
-**Responsáveis:** Eduarda Mazzari, Guilherme Hideki <img width="500" height="500" alt="codigo_QR" src="https://github.com/user-attachments/assets/b11ef3cf-5d5a-4679-9254-44aec3477a6f" />
+**Responsáveis:** Eduarda Mazzari, Guilherme Hideki 
 Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 
 ---
@@ -321,6 +321,6 @@ Função: Banco de Dados e Back-End.
 - [Wireframes do Projeto](https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0)
 
 ### QR Code
-
+<img width="500" height="500" alt="codigo_QR" src="https://github.com/user-attachments/assets/b11ef3cf-5d5a-4679-9254-44aec3477a6f" />
 
 
