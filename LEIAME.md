@@ -3,7 +3,6 @@
 # Projeto: BELUGA 2026
 **Empresa:** GCHE Solutions  
 **Área:** Ambiente Industrial – Controle e Identificação de Estoque  
-**Instituição:** SENAI Antônio Adolpho Lobbe – São Carlos  
 **Responsáveis:** Eduarda Mazzari, Guilherme Hideki 
 Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 
