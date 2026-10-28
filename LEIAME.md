@@ -119,6 +119,28 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 
 ## 5. Recursos
 
+## Equipamento utilizado
+
+- Processador: Intel Core i5-14500 — 2,60 GHz
+- Memória RAM: 16 GB
+- Sistema operacional: Windows de 64 bits
+- Webcam: Logitech C920e
+- Valor da webcam: R$ 322,00
+
+## Imagens de treinamento
+
+- Quantidade: aproximadamente 1.200 imagens
+- Dimensões: 1280 × 720 pixels (largura × altura), verificadas em oito imagens
+- Proporção: 16:9
+- Formato: JPEG
+- Cor original: RGB, 24 bits por pixel
+- Fundo: branco e cinza
+- Iluminação: luz natural e LED
+
+
+## Resultados preliminares
+
+Taxa de acertos estimada em 80%, conforme os testes informados. A avaliação final deve registrar a quantidade de testes e o critério utilizado para considerar um acerto.
 ### Pessoal
 
 **Desenvolvedores de Software:** Guilherme Hideki Kodama Prajo; Eduarda Priscila Mazzari;  Carlos Eduardo Franco Vicente; Henzo Montanari Rodrigues.
