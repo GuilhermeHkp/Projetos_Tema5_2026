@@ -25,6 +25,24 @@ Além disso, muitos produtos apresentam características semelhantes, tornando d
 
 ---
 
+## Fluxo de Utilização
+
+O fluxo principal de utilização do projeto seguirá a seguinte sequência:
+
+**Login → Home → Cadastro de Objetos → Câmera → Histórico → Pesquisa**
+
+**Funcionalidade opcional:** Ajuda → Auxílio
+
+---
+
+## Objetivo do Projeto
+
+Promover maior acessibilidade às pessoas com deficiência visual, oferecendo uma solução tecnológica que auxilie na identificação e no controle de objetos dentro do ambiente industrial.
+
+O projeto busca contribuir para um ambiente de trabalho mais acessível e inclusivo.
+
+---
+
 ## Requisitos Funcionais
 
 **RF01** - Eu, como trabalhador, gostaria de capturar a imagem ou o sinal da peça por meio de uma câmera.
@@ -118,24 +136,6 @@ O sistema permitirá o preenchimento de informações relacionadas aos registros
 O agregado poderá enviar mensagens por meio do Telegram caso enfrente problemas relacionados ao seu registro ou ao funcionamento do sistema.
 
 Essa funcionalidade também poderá ser utilizada para solicitar ajuda ou esclarecer dúvidas.
-
----
-
-## Fluxo de Utilização
-
-O fluxo principal de utilização do projeto seguirá a seguinte sequência:
-
-**Login → Home → Cadastro de Objetos → Câmera → Histórico → Pesquisa**
-
-**Funcionalidade opcional:** Ajuda → Auxílio
-
----
-
-## Objetivo do Projeto
-
-Promover maior acessibilidade às pessoas com deficiência visual, oferecendo uma solução tecnológica que auxilie na identificação e no controle de objetos dentro do ambiente industrial.
-
-O projeto busca contribuir para um ambiente de trabalho mais acessível e inclusivo.
 
 ---
 
