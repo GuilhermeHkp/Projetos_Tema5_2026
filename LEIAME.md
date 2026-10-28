@@ -1,4 +1,4 @@
-<img width="75%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
+<img width="50%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
 # Projeto: BELUGA 2026
 **Empresa:** GCHE Solutions  
