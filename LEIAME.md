@@ -1,7 +1,6 @@
 <img width="100%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
 # Projeto: BELUGA 2026
-
 **Empresa:** GCHE Solutions  
 **Área:** Ambiente Industrial – Controle e Identificação de Estoque  
 **Instituição:** SENAI Antônio Adolpho Lobbe – São Carlos  
@@ -319,15 +318,9 @@ Função: Banco de Dados e Back-End.
 
 - [Jira – Gerenciamento das Sprints](https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status)
 - [Wireframes do Projeto](https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0)
-- GitHub: Versionamento e armazenamento do código.
-- Planilhas: Organização das tarefas e responsabilidades.
-
 
 ### QR Code
 
-
-
 ### Apresentação Visual
-
 <img width="100%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
