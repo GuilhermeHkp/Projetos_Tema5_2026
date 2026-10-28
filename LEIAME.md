@@ -137,6 +137,7 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 - Fundo: branco e cinza
 - Iluminação: luz natural e LED
 
+<img width="707" height="538" alt="Captura de tela 2026-10-28 165214" src="https://github.com/user-attachments/assets/afc66d77-de90-4f1c-bcf7-08f6aebff488" />
 
 ## Resultados preliminares
 
