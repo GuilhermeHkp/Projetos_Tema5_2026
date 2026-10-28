@@ -308,7 +308,7 @@ Função: Full-Stack e Banco de Dados.
 Função: Design.  
 Cargo: Líder.
 
-**Guilherme Hideki Kodama**  
+**Guilherme Hideki Kodama Prajo**  
 Função: Front-End e Design.  
 Cargo: Analista.
 
