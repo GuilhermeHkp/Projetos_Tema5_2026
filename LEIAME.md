@@ -174,7 +174,3 @@ A documentação do Projeto BELUGA 2026 reúne as informações relacionadas ao 
 <img width="100%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
 ---
-
-**Projeto BELUGA 2026 — GCHE Solutions**
-
-*Do objeto à sua voz.*
