@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.esquerda {
+    width: 50%;
+    background: #13233b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 40px; 
+}
+
+.esquerda h1 {
+    font-size: 4.5rem; 
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.1;
+}
+
+.esquerda h2 {
+    font-size: 3.2rem; 
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+}
+
+.esquerda p {
+    font-size: 1.5rem; 
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.esquerda a {
+    color: white;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 50%;
+    max-width: 600px; 
+    margin-top: 4px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.direita {
+    width: 50%;
+    background-color:#f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.blocoBranco {
+    background: #fffcf5;
+    padding: 60px 50px; 
+    width: 100%;
+    max-width: 520px; 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.forma {
+    margin-bottom: 35px; 
+}
+
+.forma label {
+    font-size: 1.3rem; 
+    display: block;
+    margin-bottom: 10px;
+    color: #3a3d3d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.forma input, 
+.forma select {    
+    width: 100%;
+    padding: 12px 0; 
+    border: none;
+    border-bottom: 2px solid #707272; 
+    background: transparent; 
+    font-size: 1.2rem; 
+    outline: none;
+    border-radius: 0; 
+}
+
+.forma select {
+    border-radius: 20px; 
+    padding: 16px;
+    background: #dddddd;
+    appearance: none; 
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='w3.org' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23707272' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
+.forma input:focus {
+    border-bottom-color: #6c869e; 
+}
+
+.campo-senha {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.campo-senha {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.campo-senha i {
+    position: absolute;
+    right: 15px; 
+    font-size: 38px; 
+    cursor: pointer;
+    color: #707272;
+    z-index: 10;
+}
+
+
+button {
+    width: 80%; 
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 1.4rem; 
+    font-weight: bold;
+    background: #13233b;
+    color: white;
+    margin: 35px auto 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, 
+    
+}
+a {
+    text-decoration: none;
+}
+
+#button:hover {
+    opacity: 0.95;
+    transform: scale(1.02); 
+}
+
+
+@media (max-width: 992px) {
+    .container-principal {
+        flex-direction: column;
+    }
+
+    .esquerda, 
+    .direita {
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .esquerda h1 {
+        font-size: 3rem;
+    }
+
+    .esquerda h2 {
+        font-size: 2.2rem;
+    }
+    
+    .blocoBranco {
+        padding: 40px 25px;
+    }
+}
+.iconeSair {
+       font-size: 34px;
+     }

@@ -1,0 +1,114 @@
+CREATE DATABASE IF NOT EXISTS GHCE CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE GHCE;
+
+CREATE TABLE IF NOT EXISTS EMPRESA (
+    empresa_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    cnpj VARCHAR(20) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS CATEGORIA (
+    categoria_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao VARCHAR(255) NULL
+);
+CREATE TABLE IF NOT EXISTS FABRICA (
+    fabrica_id INT AUTO_INCREMENT PRIMARY KEY,
+    empresa_id INT NOT NULL,
+    nome VARCHAR(150) NOT NULL,
+    localizacao VARCHAR(255) NOT NULL,
+    FOREIGN KEY (empresa_id) REFERENCES EMPRESA(empresa_id)
+);
+CREATE TABLE IF NOT EXISTS USUARIO (
+    usuario_id INT AUTO_INCREMENT PRIMARY KEY,
+    empresa_id INT NOT NULL,
+    nome VARCHAR(150) NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    perfil VARCHAR(20) NOT NULL DEFAULT 'trabalhador',
+    ativo BOOLEAN NOT NULL DEFAULT TRUE,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    id_responsavel INT NULL,
+    id_associado INT NULL,
+    FOREIGN KEY (empresa_id) REFERENCES EMPRESA(empresa_id)
+);
+CREATE TABLE IF NOT EXISTS SETOR (
+    setor_id INT AUTO_INCREMENT PRIMARY KEY,
+    fabrica_id INT NOT NULL,
+    nome VARCHAR(150) NOT NULL,
+    descricao VARCHAR(255) NULL,
+    FOREIGN KEY (fabrica_id) REFERENCES FABRICA(fabrica_id)
+);
+CREATE TABLE IF NOT EXISTS LOCALIZACAO (
+    localizacao_id INT AUTO_INCREMENT PRIMARY KEY,
+    setor_id INT NOT NULL,
+    codigo VARCHAR(50) NULL,
+    descricao VARCHAR(255) NULL,
+    FOREIGN KEY (setor_id) REFERENCES SETOR(setor_id)
+);
+CREATE TABLE IF NOT EXISTS PECA (
+    peca_id INT AUTO_INCREMENT PRIMARY KEY,
+    localizacao_id INT NULL,
+    categoria_id INT NULL,
+    codigo_patrimonial VARCHAR(100) NULL,
+    nome VARCHAR(150) NOT NULL,
+    classe_yolo VARCHAR(100) NULL,
+    descricao VARCHAR(255) NULL,
+    quantidade INT NOT NULL DEFAULT 0,
+    quantidade_disponivel INT NOT NULL DEFAULT 0,
+    estoque_minimo INT NOT NULL DEFAULT 1,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    imagem_path VARCHAR(255) NULL,
+    FOREIGN KEY (localizacao_id) REFERENCES LOCALIZACAO(localizacao_id),
+    FOREIGN KEY (categoria_id) REFERENCES CATEGORIA(categoria_id),
+    UNIQUE KEY uq_peca_classe_yolo (classe_yolo)
+);
+CREATE TABLE IF NOT EXISTS RECURSO_ML (
+    recurso_id INT AUTO_INCREMENT PRIMARY KEY,
+    peca_id INT NOT NULL,
+    tipo_recurso VARCHAR(50) NOT NULL,
+    descricao_audio VARCHAR(255) NULL,
+    arquivo_audio VARCHAR(255) NULL,
+    data_treinamento TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (peca_id) REFERENCES PECA(peca_id)
+);
+CREATE TABLE IF NOT EXISTS OPERACAO (
+    operacao_id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT NOT NULL,
+    peca_id INT NOT NULL,
+    tipo_operacao VARCHAR(50) NOT NULL,
+    quantidade INT NOT NULL DEFAULT 1,
+    data_operacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    resultado VARCHAR(255) NULL,
+    caminho_foto VARCHAR(255) NULL,
+    FOREIGN KEY (usuario_id) REFERENCES USUARIO(usuario_id),
+    FOREIGN KEY (peca_id) REFERENCES PECA(peca_id)
+);
+CREATE TABLE IF NOT EXISTS HISTORICO (
+    historico_id INT AUTO_INCREMENT PRIMARY KEY,
+    peca_id INT NULL,
+    nome_peca VARCHAR(150) NULL,
+    quantidade INT NOT NULL DEFAULT 0,
+    descricao VARCHAR(255) NULL,
+    horario_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (peca_id) REFERENCES PECA(peca_id)
+);
+CREATE TABLE IF NOT EXISTS PERFIL_ACESSIBILIDADE (
+    perfil_id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT NOT NULL,
+    contraste_alto BOOLEAN NOT NULL DEFAULT FALSE,
+    leitura_voz BOOLEAN NOT NULL DEFAULT FALSE,
+    tamanho_fonte INT NOT NULL DEFAULT 12,
+    descricoes_audio BOOLEAN NOT NULL DEFAULT FALSE,
+    FOREIGN KEY (usuario_id) REFERENCES USUARIO(usuario_id)
+);
+
+CREATE TABLE IF NOT EXISTS SOLICITACAO_ADMIN (
+ solicitacao_id INT AUTO_INCREMENT PRIMARY KEY,
+ usuario_id INT NOT NULL,
+ mensagem VARCHAR(1000) NOT NULL,
+ status VARCHAR(20) NOT NULL DEFAULT 'pendente',
+ telegram_enviado BOOLEAN NOT NULL DEFAULT FALSE,
+ criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ FOREIGN KEY (usuario_id) REFERENCES USUARIO(usuario_id)
+);

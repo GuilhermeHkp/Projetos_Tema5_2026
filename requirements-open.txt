@@ -1,0 +1,1 @@
+clip @ https://github.com/openai/CLIP/archive/refs/heads/main.zip

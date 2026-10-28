@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.barraSuperior {
+    width: 100%;
+    height: 53px;
+    background-color: #13233b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    color: white;
+}
+
+.ladoEsquerdo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconeMenu {
+    font-size: 35px;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.ladoDireito {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nomeUsuario {
+    font-size: 22px;
+}
+
+.iconeSair {
+    font-size: 34px;
+    color: white;
+}
+
+.menuLateral {
+    position: fixed;
+    top: 53px;
+    left: 0;
+    width: 56px;
+    height: calc(100vh - 53px);
+    background-color: #13233b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    gap: 100px;
+}
+
+.menuLateral i {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 76px;
+    padding: 25px;
+}
+
+.conteudo-historico {
+    width: 100%;
+}
+
+.titulo-historico {
+    width: 100%;
+    height: auto;
+    min-height: 45px;
+    margin: 0 auto 25px auto;
+    padding: 10px;
+    background: radial-gradient(circle, #0d192b, #13243f, #000000);
+    border: 3px solid #13233b;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.area-pesquisa {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px;
+    min-height: calc(100vh - 170px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .08);
+    
+
+}
+
+.tabela-container {
+    width: 100%;
+    overflow-x: auto;
+      border-radius: 10px;
+}
+
+.tabela-produtos {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+.tabela-produtos thead {
+    background: radial-gradient(circle, #0d192b, #13243f, #000000);
+}
+
+.tabela-produtos th {
+    padding: 18px;
+    text-align: left;
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: bold;
+    
+}
+
+.tabela-produtos td {
+    padding: 16px;
+    text-align: left;
+    font-size: 15px;
+    color: #444;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.btn-audio {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, #0d192b, #13243f, #000000);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-audio:hover {
+    transform: scale(1.08);
+    background: radial-gradient(circle, #0d192b, #4d6581, #000000);
+}
+
+.btn-audio i {
+    pointer-events: none;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(236, 236, 236);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #13233b; 
+  border-radius: 20px;      
+  border: 3px solid #f3f3f3;  
+}
+@media (max-width: 900px) {
+    .titulo-historico h2 {
+        font-size: 22px;
+    }
+    .tabela-produtos th {
+        font-size: 16px;
+    }
+    .tabela-produtos td {
+        font-size: 14px;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.ghce-barra-acesso,
+.barraSuperior {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.conteudo-historico {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.titulo-historico {
+    flex-shrink: 0;
+}
+
+.area-pesquisa {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tabela-container {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+.tabela-produtos th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #13233b;
+}
+
+.tabela-container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.tabela-container::-webkit-scrollbar-track {
+    background: #e7e7e7;
+}
+
+.tabela-container::-webkit-scrollbar-thumb {
+    background: #13233b;
+    border-radius: 20px;
+    border: 2px solid #e7e7e7;
+}

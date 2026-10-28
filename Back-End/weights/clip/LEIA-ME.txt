@@ -1,0 +1,2 @@
+CLIP e opcional quando o best.pt especializado esta presente.
+Para usar DETECTION_MODE=open, rode INSTALAR_CLIP.cmd e adicione yolov8s-worldv2.pt em Back-End\models.

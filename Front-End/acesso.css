@@ -1,0 +1,116 @@
+.ghce-barra-acesso { 
+    padding:12px 20px;
+    background:#13233b;
+    color:#ffffff;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ghce-botao { box-sizing:border-box;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:auto;
+    height:auto;
+    min-height:44px;padding:11px 17px;margin:0;
+    border:1px solid #b9c8dc;
+    border-radius:9px;background:#fff;
+    color:#13233b;font:700 15px Arial,sans-serif;cursor:pointer;
+    line-height:1.25;
+    transition:background .16s,box-shadow .16s; 
+}
+.ghce-botao:hover { 
+    background:#edf3fb;
+    box-shadow:0 3px 9px #13233b20; 
+}
+.ghce-botao:focus-visible {
+     outline:3px solid #f0b429;
+     outline-offset:3px; 
+}
+.ghce-botao:disabled {
+     opacity:.65;
+     cursor:wait;
+}
+.ghce-botao.ghce-editar { 
+    background:#174a85;
+    border-color:#174a85;
+    color:#fff; 
+}
+.ghce-botao.ghce-editar:hover { 
+    background:#103863; 
+}
+.ghce-botao.ghce-excluir {
+     background:#103863;
+     color: #ffffff;
+    
+}
+.ghce-botao.ghce-excluir:hover { 
+    background:#174a85; 
+}
+.ghce-acoes-registro { 
+    white-space:nowrap;min-width:215px; 
+}
+.ghce-acoes-registro .ghce-botao + .ghce-botao { 
+    margin-left:8px; 
+}
+.ghce-modal {
+     position:fixed;
+     inset:0;margin:auto;
+     width:min(520px,calc(100vw - 40px));
+     max-height:90vh;overflow:auto;
+     padding:28px;border:1px solid #d8e1ee;
+     border-radius:18px;background:#fff;
+     color:#13233b;
+     box-shadow:0 24px 80px #08182c55;
+     font-family:Arial,sans-serif; 
+}
+.ghce-modal::backdrop {
+     background:#0b192cb3; 
+}
+.ghce-modal h2 {
+     margin:0 0 12px;font-size:25px;line-height:1.25; 
+}
+.ghce-modal p {
+     margin:0 0 22px;color:#40516a;line-height:1.6;font-size:16px; 
+}
+.ghce-modal label {
+     display:block;
+     margin-bottom:18px;
+     font-size:16px;
+     font-weight:700; 
+}
+.ghce-modal input,.ghce-modal textarea {
+     display:block;
+     box-sizing:border-box;
+     margin-top:8px;
+     width:100%;
+     min-height:46px;
+     padding:12px;
+     border-radius:9px;color:#13233b;
+     background:#f8fafd;
+     font:16px Arial,sans-serif; 
+    }
+.ghce-modal textarea {
+     min-height:95px;
+     resize:vertical;
+}
+
+.ghce-modal-acoes { 
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;margin-top:24px;
+    flex-wrap:wrap; 
+}
+#painel-solicitacoes { 
+    background:#fff;
+    border:1px solid #d8e1ee;
+    border-radius:12px;
+    margin-top:20px;
+    padding:22px;
+    color:#13233b; }
+#painel-solicitacoes p { 
+    padding:14px 0;
+    border-bottom:1px solid #e2e8f0;
+    line-height:1.6; }

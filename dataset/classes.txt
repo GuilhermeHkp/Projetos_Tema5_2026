@@ -1,0 +1,70 @@
+Caneta
+Lápis
+Marca-texto
+Marcador permanente
+Marcador de quadro
+Borracha
+Apontador
+Régua
+Caderno
+Livro
+Grampeador
+Tesoura
+Fita adesiva
+EscovaCabelo
+Escova de dentes
+BodySplash
+Perfume
+Brinco
+Colar
+Anel
+Relógio
+Chave
+Carteira
+Celular
+Mouse
+Teclado
+Controle remoto
+Pendrive
+Garrafa plástica
+Garrafa PET
+Garrafa esportiva
+Plástico
+Copo
+Caneca
+Frasco spray
+Prego
+Parafuso
+Porca sextavada
+Parafuso sextavado
+Parafuso Phillips
+Parafuso de fenda
+Barra roscada
+Arruela
+Chave Phillips
+Chave de fenda
+Chave inglesa
+Chave combinada
+Chave catraca
+Alicate universal
+Alicate de bico
+Martelo
+Furadeira
+Broca
+Trena
+Estilete
+Grampo metálico
+Rolamento
+Engrenagem
+Mola
+Corrente metálica
+Conexão de tubo
+Válvula
+Junta de vedação
+Conector elétrico
+Fio elétrico
+Abraçadeira de nylon
+Fusível
+Capacete de segurança
+Óculos de segurança
+Luva de proteção

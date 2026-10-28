@@ -1,0 +1,616 @@
+{
+  "version": 2,
+  "description": "Catálogo open-set: classes exibidas, variações semânticas e conceitos de rejeição para reduzir falsos positivos.",
+  "objects": [
+    {
+      "prompt": "ballpoint pen",
+      "display_name": "Caneta",
+      "group": "escrita",
+      "min_conf": 0.42,
+      "aliases": [
+        "ballpoint pen",
+        "ink pen",
+        "writing pen",
+        "BIC style pen"
+      ]
+    },
+    {
+      "prompt": "graphite pencil",
+      "display_name": "Lápis",
+      "group": "escrita",
+      "min_conf": 0.42,
+      "aliases": [
+        "wooden pencil",
+        "graphite writing pencil",
+        "school pencil"
+      ]
+    },
+    {
+      "prompt": "fluorescent highlighter pen",
+      "display_name": "Marca-texto",
+      "group": "escrita",
+      "min_conf": 0.44,
+      "aliases": [
+        "highlighter",
+        "highlighter marker",
+        "fluorescent marker"
+      ]
+    },
+    {
+      "prompt": "permanent marker pen",
+      "display_name": "Marcador permanente",
+      "group": "escrita",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "whiteboard marker pen",
+      "display_name": "Marcador de quadro",
+      "group": "escrita",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "rubber eraser",
+      "display_name": "Borracha",
+      "group": "escrita",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "pencil sharpener",
+      "display_name": "Apontador",
+      "group": "escrita",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "ruler",
+      "display_name": "Régua",
+      "group": "escrita",
+      "min_conf": 0.38
+    },
+    {
+      "prompt": "paper notebook",
+      "display_name": "Caderno",
+      "group": "papelaria",
+      "min_conf": 0.38
+    },
+    {
+      "prompt": "book",
+      "display_name": "Livro",
+      "group": "papelaria",
+      "min_conf": 0.38
+    },
+    {
+      "prompt": "office stapler",
+      "display_name": "Grampeador",
+      "group": "papelaria",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "scissors",
+      "display_name": "Tesoura",
+      "group": "papelaria",
+      "min_conf": 0.4,
+      "max_elongation": 4.0,
+      "aliases": [
+        "office scissors",
+        "school scissors",
+        "pair of scissors"
+      ]
+    },
+    {
+      "prompt": "adhesive tape roll",
+      "display_name": "Fita adesiva",
+      "group": "papelaria",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "hair brush",
+      "display_name": "EscovaCabelo",
+      "group": "pessoal",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "toothbrush",
+      "display_name": "Escova de dentes",
+      "group": "pessoal",
+      "min_conf": 0.42,
+      "min_elongation": 2.0,
+      "aliases": [
+        "manual toothbrush",
+        "tooth brush"
+      ]
+    },
+    {
+      "prompt": "body spray bottle",
+      "display_name": "BodySplash",
+      "group": "pessoal",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "perfume bottle",
+      "display_name": "Perfume",
+      "group": "pessoal",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "earring",
+      "display_name": "Brinco",
+      "group": "pessoal",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "necklace",
+      "display_name": "Colar",
+      "group": "pessoal",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "finger ring",
+      "display_name": "Anel",
+      "group": "pessoal",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "wristwatch",
+      "display_name": "Relógio",
+      "group": "pessoal",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "house key",
+      "display_name": "Chave",
+      "group": "cotidiano",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "wallet",
+      "display_name": "Carteira",
+      "group": "cotidiano",
+      "min_conf": 0.38
+    },
+    {
+      "prompt": "smartphone",
+      "display_name": "Celular",
+      "group": "eletrônico",
+      "min_conf": 0.38
+    },
+    {
+      "prompt": "computer mouse",
+      "display_name": "Mouse",
+      "group": "eletrônico",
+      "min_conf": 0.46,
+      "aliases": [
+        "desktop computer mouse",
+        "wired mouse",
+        "wireless mouse"
+      ]
+    },
+    {
+      "prompt": "computer keyboard",
+      "display_name": "Teclado",
+      "group": "eletrônico",
+      "min_conf": 0.48,
+      "aliases": [
+        "computer keyboard with many keys",
+        "PC keyboard",
+        "desktop keyboard"
+      ]
+    },
+    {
+      "prompt": "remote control",
+      "display_name": "Controle remoto",
+      "group": "eletrônico",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "USB flash drive",
+      "display_name": "Pendrive",
+      "group": "eletrônico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "plastic bottle",
+      "display_name": "Garrafa plástica",
+      "group": "recipiente",
+      "min_conf": 0.42,
+      "aliases": [
+        "reusable plastic bottle",
+        "plastic drinking bottle",
+        "plastic beverage bottle"
+      ],
+      "detector_aliases": [
+        "plastic drinking bottle"
+      ],
+      "score_bias": -0.025,
+      "ambiguity_family": "bottle",
+      "family_fallback": true
+    },
+    {
+      "prompt": "PET plastic bottle",
+      "display_name": "Garrafa PET",
+      "group": "recipiente",
+      "min_conf": 0.42,
+      "aliases": [
+        "disposable clear plastic water bottle",
+        "soft drink soda bottle",
+        "transparent PET beverage bottle",
+        "crinkled disposable water bottle"
+      ],
+      "detector_aliases": [
+        "disposable water bottle",
+        "soda plastic bottle"
+      ],
+      "ambiguity_family": "bottle",
+      "family_fallback": false
+    },
+    {
+      "prompt": "sports water bottle",
+      "display_name": "Garrafa esportiva",
+      "group": "recipiente",
+      "min_conf": 0.42,
+      "aliases": [
+        "gym water bottle",
+        "fitness bottle",
+        "squeeze bottle",
+        "reusable sports bottle",
+        "protein shaker bottle"
+      ],
+      "detector_aliases": [
+        "gym bottle",
+        "squeeze bottle"
+      ],
+      "ambiguity_family": "bottle",
+      "family_fallback": false
+    },
+    {
+      "prompt": "generic plastic object",
+      "display_name": "Plástico",
+      "group": "material",
+      "min_conf": 0.5,
+      "aliases": [
+        "plastic item",
+        "piece made of plastic",
+        "small rigid plastic object",
+        "plastic container"
+      ],
+      "score_bias": -0.055
+    },
+    {
+      "prompt": "drinking glass",
+      "display_name": "Copo",
+      "group": "recipiente",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "coffee mug",
+      "display_name": "Caneca",
+      "group": "recipiente",
+      "min_conf": 0.4
+    },
+    {
+      "prompt": "spray bottle",
+      "display_name": "Frasco spray",
+      "group": "recipiente",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "metal nail fastener",
+      "display_name": "Prego",
+      "group": "fixador",
+      "min_conf": 0.48,
+      "aliases": [
+        "steel nail",
+        "construction nail",
+        "small iron nail",
+        "common wire nail"
+      ],
+      "detector_aliases": [
+        "steel nail"
+      ]
+    },
+    {
+      "prompt": "generic metal screw",
+      "display_name": "Parafuso",
+      "group": "fixador",
+      "min_conf": 0.48,
+      "aliases": [
+        "small metal screw",
+        "machine screw",
+        "wood screw",
+        "threaded screw fastener"
+      ],
+      "detector_aliases": [
+        "metal screw"
+      ],
+      "score_bias": -0.018,
+      "ambiguity_family": "screw",
+      "family_fallback": true
+    },
+    {
+      "prompt": "hex nut",
+      "display_name": "Porca sextavada",
+      "group": "fixador",
+      "min_conf": 0.48,
+      "aliases": [
+        "metal hex nut",
+        "threaded hexagonal nut",
+        "small steel nut"
+      ]
+    },
+    {
+      "prompt": "hex head bolt",
+      "display_name": "Parafuso sextavado",
+      "group": "fixador",
+      "min_conf": 0.48,
+      "aliases": [
+        "hex bolt",
+        "metal hex bolt",
+        "hexagonal head bolt"
+      ],
+      "ambiguity_family": "screw",
+      "family_fallback": false
+    },
+    {
+      "prompt": "Phillips head screw",
+      "display_name": "Parafuso Phillips",
+      "group": "fixador",
+      "min_conf": 0.5,
+      "aliases": [
+        "Phillips screw",
+        "cross head screw",
+        "crosshead metal screw"
+      ],
+      "detector_aliases": [
+        "Phillips screw"
+      ],
+      "ambiguity_family": "screw",
+      "family_fallback": false
+    },
+    {
+      "prompt": "slotted head screw",
+      "display_name": "Parafuso de fenda",
+      "group": "fixador",
+      "min_conf": 0.5,
+      "aliases": [
+        "slotted screw",
+        "flat slot screw",
+        "straight slot screw"
+      ],
+      "detector_aliases": [
+        "slotted screw"
+      ],
+      "ambiguity_family": "screw",
+      "family_fallback": false
+    },
+    {
+      "prompt": "threaded rod",
+      "display_name": "Barra roscada",
+      "group": "fixador",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "flat metal washer",
+      "display_name": "Arruela",
+      "group": "fixador",
+      "min_conf": 0.48,
+      "aliases": [
+        "metal washer",
+        "flat washer",
+        "round washer with center hole"
+      ]
+    },
+    {
+      "prompt": "Phillips screwdriver",
+      "display_name": "Chave Phillips",
+      "group": "ferramenta",
+      "min_conf": 0.44,
+      "min_elongation": 2.0,
+      "aliases": [
+        "Phillips screwdriver tool",
+        "cross head screwdriver",
+        "screwdriver with cross tip"
+      ],
+      "detector_aliases": [
+        "Phillips screwdriver tool"
+      ]
+    },
+    {
+      "prompt": "flat head screwdriver",
+      "display_name": "Chave de fenda",
+      "group": "ferramenta",
+      "min_conf": 0.44,
+      "min_elongation": 2.0,
+      "aliases": [
+        "flat screwdriver tool",
+        "slotted screwdriver",
+        "screwdriver with flat blade tip"
+      ],
+      "detector_aliases": [
+        "flat screwdriver tool"
+      ]
+    },
+    {
+      "prompt": "adjustable wrench",
+      "display_name": "Chave inglesa",
+      "group": "ferramenta",
+      "min_conf": 0.42,
+      "aliases": [
+        "adjustable spanner",
+        "crescent wrench"
+      ]
+    },
+    {
+      "prompt": "combination wrench",
+      "display_name": "Chave combinada",
+      "group": "ferramenta",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "socket wrench",
+      "display_name": "Chave catraca",
+      "group": "ferramenta",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "combination pliers",
+      "display_name": "Alicate universal",
+      "group": "ferramenta",
+      "min_conf": 0.42,
+      "aliases": [
+        "combination pliers tool",
+        "lineman pliers"
+      ]
+    },
+    {
+      "prompt": "needle nose pliers",
+      "display_name": "Alicate de bico",
+      "group": "ferramenta",
+      "min_conf": 0.44,
+      "aliases": [
+        "needle nose pliers tool",
+        "long nose pliers"
+      ]
+    },
+    {
+      "prompt": "claw hammer",
+      "display_name": "Martelo",
+      "group": "ferramenta",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "electric drill",
+      "display_name": "Furadeira",
+      "group": "ferramenta",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "metal drill bit",
+      "display_name": "Broca",
+      "group": "ferramenta",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "tape measure",
+      "display_name": "Trena",
+      "group": "ferramenta",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "utility knife",
+      "display_name": "Estilete",
+      "group": "ferramenta",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "metal clamp",
+      "display_name": "Grampo metálico",
+      "group": "ferramenta",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "ball bearing",
+      "display_name": "Rolamento",
+      "group": "mecânico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "metal gear",
+      "display_name": "Engrenagem",
+      "group": "mecânico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "coil spring",
+      "display_name": "Mola",
+      "group": "mecânico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "metal chain",
+      "display_name": "Corrente metálica",
+      "group": "mecânico",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "pipe fitting",
+      "display_name": "Conexão de tubo",
+      "group": "mecânico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "industrial valve",
+      "display_name": "Válvula",
+      "group": "mecânico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "rubber gasket",
+      "display_name": "Junta de vedação",
+      "group": "mecânico",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "electrical connector",
+      "display_name": "Conector elétrico",
+      "group": "elétrico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "electrical wire",
+      "display_name": "Fio elétrico",
+      "group": "elétrico",
+      "min_conf": 0.46
+    },
+    {
+      "prompt": "cable tie",
+      "display_name": "Abraçadeira de nylon",
+      "group": "elétrico",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "electrical fuse",
+      "display_name": "Fusível",
+      "group": "elétrico",
+      "min_conf": 0.48
+    },
+    {
+      "prompt": "safety helmet",
+      "display_name": "Capacete de segurança",
+      "group": "epi",
+      "min_conf": 0.42
+    },
+    {
+      "prompt": "safety glasses",
+      "display_name": "Óculos de segurança",
+      "group": "epi",
+      "min_conf": 0.44
+    },
+    {
+      "prompt": "work glove",
+      "display_name": "Luva de proteção",
+      "group": "epi",
+      "min_conf": 0.42
+    }
+  ],
+  "reject_concepts": [
+    "paper clip",
+    "binder clip",
+    "coin",
+    "bottle cap",
+    "metal scrap fragment",
+    "plastic fragment",
+    "piece of cardboard",
+    "small rock",
+    "food item",
+    "human hand",
+    "human finger",
+    "table surface",
+    "background clutter",
+    "charging cable",
+    "earbud headphone",
+    "spoon",
+    "fork",
+    "kitchen knife",
+    "unknown electronic gadget",
+    "unidentified object not in inventory"
+  ]
+}

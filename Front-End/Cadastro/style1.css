@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f3f4f6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ghce-barra-acesso,
+.barraSuperior {
+    flex-shrink: 0;
+}
+
+.barraSuperior {
+    width: 100%;
+    height: 53px;
+    background: #13233b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    color: white;
+}
+
+.ladoEsquerdo,
+.ladoDireito {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconeMenu {
+    font-size: 35px;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.nomeUsuario {
+    font-size: 22px;
+}
+
+.iconeSair {
+    font-size: 34px;
+}
+.menuLateral {
+    position: fixed;
+    top: 53px;
+    left: 0;
+    width: 56px;
+    height: calc(100vh - 53px);
+    background-color: #13233b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 65px;
+    padding-bottom: 0;
+    gap: 100px;
+}
+
+.menuLateral a {
+    display: inline;
+    width: auto;
+    min-height: 0;
+    flex-shrink: 0;
+}
+
+.menuLateral i {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    transition: none;
+}
+
+.menuLateral a:hover i {
+    transform: none;
+}
+.container {
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    margin-left: 76px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.acoes {
+    display: flex;
+    flex-shrink: 0;
+    gap: 15px;
+    margin-bottom: 25px;
+    color: #e5e7eb;
+}
+
+.acoes button {
+    flex: 1;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: radial-gradient(
+        circle,
+        #0d192b,
+        #13243f,
+        #000000
+    );
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5e7eb;
+    cursor: pointer;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.acoes button:hover {
+    transform: translateY(-2px);
+    filter: brightness(0.95);
+}
+
+.acoes button:focus-visible {
+    outline: 3px solid #eab308;
+    outline-offset: 3px;
+}
+
+.button {
+    flex: 1;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: #fc0404;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.area-tabela {
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.tabela-container {
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    width: 100%;
+    overflow: auto;
+    overscroll-behavior: contain;
+    border-radius: 10px;
+}
+
+.tabela-produtos {
+    width: 100%;
+    min-width: 700px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.tabela-produtos th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #13233b;
+    padding: 18px;
+    text-align: left;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.tabela-produtos td {
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #333;
+}
+
+.tabela-container {
+    scrollbar-width: thin;
+    scrollbar-color: #13233b #e7e7e7;
+}
+
+.tabela-container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.tabela-container::-webkit-scrollbar-track {
+    background: #e7e7e7;
+}
+
+.tabela-container::-webkit-scrollbar-thumb {
+    background: #13233b;
+    border-radius: 20px;
+    border: 2px solid #e7e7e7;
+}
+
+.tabela-container::-webkit-scrollbar-corner {
+    background: #e7e7e7;
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin-left: 56px;
+        padding: 15px;
+    }
+
+    .area-tabela {
+        padding: 12px;
+    }
+
+    .acoes {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .acoes button {
+        font-size: 18px;
+    }
+
+    .tabela-produtos th,
+    .tabela-produtos td {
+        padding: 14px;
+        font-size: 14px;
+    }
+}

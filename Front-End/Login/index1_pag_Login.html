@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro / Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="script1.js" defer></script>
+</head>
+<body>
+
+<main class="container-principal">
+    <section class="esquerda">
+        <h1>Bem vindo!</h1>
+        <h2>Acesso ao sistema:</h2>
+        <p>
+            Está curioso?! <br>
+            Contate-nos: <a href="../QuemSomos/index.html"> Quem somos</a>
+        </p>
+        <div class="logo">
+          <img src="../Fotos/LOGO.png">
+        </div>
+    </section>
+    <section class="direita">
+        <div class="blocoBranco">
+            <div class="forma">
+    <label>Seu ID de usuário</label>
+    <input type="number" id="colaborador">
+</div>
+
+<div class="forma">
+    <label>ID do colaborador associado (opcional)</label>
+    <input type="number" id="associado">
+</div>
+
+<div class="forma">
+    
+    <label>Senha</label>
+
+    <div class="campo-senha">
+        <input
+            type="password"
+            id="senha"
+        >
+        <i
+        class="bi bi-eye-fill"
+        id="btn-senha"
+        onclick="mostrarSenha()">
+        </i>
+
+    </div>
+</div>
+
+<button onclick="fazerLogin()">
+    Acessar
+</button>
+            
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

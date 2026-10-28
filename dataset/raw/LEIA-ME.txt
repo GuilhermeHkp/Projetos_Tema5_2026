@@ -1,0 +1,5 @@
+Coloque as imagens em:
+
+dataset\raw\<classe>\<sessao>\
+
+Use pelo menos tres sessoes diferentes por classe.

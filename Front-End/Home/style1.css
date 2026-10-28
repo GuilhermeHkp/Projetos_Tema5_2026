@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, sans-serif; 
+}
+
+body{
+    background-color:#f3f4f6;
+    overflow-x: hidden;
+}
+
+.barraSuperior{
+    width: 100%;
+    height: 53px;
+    background-color: #13233b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    color:white;
+}
+
+.ladoEsquerdo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconeMenu {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.titulo{
+    font-size: 25px;
+}
+
+.ladoDireito{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nomeUsuario{
+    font-size: 22px;
+}
+
+.iconeSair{
+    font-size: 34px;
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuLateral {
+    position: fixed;
+    top: 53px;
+    left: 0;
+    width: 0; 
+    height: calc(100vh - 53px); 
+    background-color:#13233b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px; 
+    gap: 40px;         
+    transition: width 0.3s;
+    z-index: 10;
+    overflow: hidden; 
+}
+
+.menuLateral a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%; 
+    height: 50px;
+    text-decoration: none;
+    color:white;
+    gap:100;
+}
+
+.menuLateral i {
+    font-size: 35px; 
+    cursor: pointer;
+    min-width: 60px; 
+    text-align: center;
+    gap: 30;
+}
+
+.menuLateral a span {
+
+    color:white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.menuLateral.aberto {
+    width: 240px; 
+}
+
+.menuLateral.aberto a span {
+    visibility: visible;
+}
+
+.conteudoPrincipal {
+    margin-left: 0; 
+
+    padding-top: 40px; 
+    padding-left: 32px; 
+    padding-right: 35px;
+    transition: margin-left 0.3s ease;
+}
+
+
+
+.textoPergunta{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.opcoes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.cartaoOpcao{
+    height: 240px;
+    background: radial-gradient(circle, #0d192b, #13243f, #000000);
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    
+}
+
+.cartaoOpcao:hover{
+    background: radial-gradient(circle, #0d192b, #13243fec, #000000e0);
+    border: solid 4px rgb(69, 89, 89);
+    transition: 0.5s;
+    transform: scale(1.05); 
+}
+
+.cartaoOpcao i{
+    font-size: 150px;
+    color: #ffffff;
+}
+
+.cartaoOpcao h1{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+
+.imagem-logo{
+    width: 200px;
+}
+
+.atalhoAjuda{
+    font-size: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(236, 236, 236);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #13233b; 
+  border-radius: 20px;      
+  border: 3px solid #f3f3f3;  
+}
