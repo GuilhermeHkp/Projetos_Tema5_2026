@@ -9,10 +9,14 @@ Kodama, Carlos Eduardo Vicente e Henzo Montanari.
 ---
 
 ## 1. Escopo
-
-O Projeto BELUGA 2026 tem como finalidade desenvolver um sistema de identificação e conferência de objetos por meio de visão computacional, proporcionando maior acessibilidade para trabalhadores com deficiência visual no mercado de trabalho.
-O sistema utiliza uma câmera para capturar imagens de peças e realizar seu reconhecimento por meio de inteligência artificial. Após a identificação, as informações são processadas e apresentadas ao usuário por meio de áudio, permitindo consultar características dos objetos e realizar conferências de estoque.
-Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, histórico de registros e controle de acesso, buscando oferecer maior autonomia aos trabalhadores, promovendo acessibilidade e autonomia ao usuário.
+O Projeto BELUGA 2026 tem como objetivo desenvolver um sistema inovador de identificação e conferência de objetos por meio de visão computacional, promovendo a inclusão e a acessibilidade de profissionais com deficiência visual no mercado de trabalho.
+O ecossistema utiliza uma câmera para capturar imagens de peças em tempo real, realizando o reconhecimento automatizado através de uma inteligência artificial própria, desenvolvida e treinada integralmente pela GCHE ao longo do projeto.
+Após a identificação dos itens, as informações são processadas e transmitidas ao usuário via áudio (retorno por voz). Isso permite a consulta instantânea das características dos objetos e a realização de conferências de estoque de forma totalmente autônoma.
+Para oferecer uma experiência completa e integrada, a solução dispõe de funcionalidades como:
+- Cadastro de itens
+- Busca avançada
+- Histórico de registros
+- Controle de acesso seguro
 
 ## 2. Objetivos do Projeto
 
@@ -137,7 +141,7 @@ Além disso, a solução disponibiliza funcionalidades de cadastro, pesquisa, hi
 
 **HTML, CSS e JavaScript:** Utilizadas no desenvolvimento das interfaces e funcionalidades do Front-End.
 
-**YOLO:** Modelo de identificação e localizar objetos nas imagens, utilizado como base para a identificação própria dos objetos.
+**YOLO:** Modelo de identificação e localizar objetos nas imagens, utilizado como base para a identificação própria dos objetos. 
 
 **Banco de Dados:** Responsável pelo armazenamento dos cadastros, informações dos objetos e registros do sistema.
 
