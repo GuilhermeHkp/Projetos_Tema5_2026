@@ -131,9 +131,9 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 
 ### Tecnologia
 
-**Visual Studio Code:** HTML/Css/Python/Yolo.
+**Visual Studio Code:** HTML5/Css/Python 3.14/Yolo.
 
-**Banco de Dados:** MySql.
+**Banco de Dados:** MySql 8.0.
 
 **Online:** GitHub
 
@@ -151,7 +151,7 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 
 ### Equipamentos
 
-**Computadores e Notebooks**;
+**Computadores"*;
 
 **Webcam**;
 
