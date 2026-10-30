@@ -140,16 +140,17 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 <table border="0" align="center">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github.com" width="300" alt="Imagem original" />
+      <img src="https://github.com" width="350" alt="Ferramentas originais" />
     </td>
-    <td align="center" valign="middle" style="font-size: 40px; padding: 0 20px;">
+    <td align="center" valign="middle" style="font-size: 45px; padding: 0 25px; color: #58a6ff;">
       ➔
     </td>
     <td align="center" valign="middle">
-      <img src="https://github.com" width="300" alt="Imagem marcada" />
+      <img src="https://github.com" width="350" alt="Ferramentas demarcadas" />
     </td>
   </tr>
 </table>
+
 
 
 
