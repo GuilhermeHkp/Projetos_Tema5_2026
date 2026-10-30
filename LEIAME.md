@@ -151,18 +151,14 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
   </tr>
 </table>
 Retorno em aúdio:
-A -> 1 Chave Phillips Encontrada
-B -> 1 Chave Inglesa Encontrada
-C -> 1 Chave fenda Encontrada
-D -> 1 parafuso 6cm Encontrada
-E -> 1 Parafuso 1,5cm Encontrada
-F -> 1 Prego Encontrada
-G -> 1 Porca Encontrada
-H -> 1 Phillips Encontrada
-
-
-
-
+A -> 1 Chave Phillips Encontrada (tamanho)
+B -> 1 Chave Inglesa Encontrada (tamanho)
+C -> 1 Chave fenda Encontrada (tamanho)
+D -> 1 parafuso 6cm Encontrada (tamanho)
+E -> 1 Parafuso 1,5cm Encontrada (tamanho)
+F -> 1 Prego Encontrada (tamanho)
+G -> 1 Porca Encontrada (tamanho)
+H -> 1 Phillips Encontrada (tamanho)
 
 ## Resultados preliminares
 
@@ -293,12 +289,15 @@ O Projeto BELUGA possui funcionalidades destinadas à identificação, ao gerenc
 ### Login
 
 O sistema disponibiliza diferentes perfis de acesso, permitindo controlar as funcionalidades disponíveis para cada usuário.
+<img width="1919" height="952" alt="histórico" src="https://github.com/user-attachments/assets/b7f1df5c-84a1-47f2-8f72-25d6e239d0e3" />
 
 ### Câmera
+<img width="1919" height="947" alt="camera" src="https://github.com/user-attachments/assets/f613829a-436f-42e4-ad14-31265fe686d1" />
+
 
 Permite realizar a captura e a identificação de objetos, utilizando visão computacional para processar as imagens e apresentar os resultados.
 
-### Cadastro
+### Cadastro de peças
 
 Permite registrar e consultar informações relacionadas aos objetos. As operações de edição e exclusão são restritas aos usuários autorizados.
 
@@ -314,6 +313,14 @@ Permite localizar produtos cadastrados por meio de recursos de busca e filtragem
 
 Prevê a utilização de recursos de suporte para auxiliar usuários que apresentem dificuldades durante a utilização do sistema.
 
+### Vídeo Expositivo
+
+
+
+
+
+
+
 
 
 **Ferramentas de organização:**
@@ -321,7 +328,7 @@ Prevê a utilização de recursos de suporte para auxiliar usuários que apresen
 - [Jira – Gerenciamento das Sprints](https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status)
 - [Wireframes do Projeto](https://docs.google.com/spreadsheets/d/1ZHOaPT_BEEMDnMluxP_CiTTEAz_7OK8xzbt4fvLhERg/edit?gid=0#gid=0)
 
-### QR Code
+
 
 
 
