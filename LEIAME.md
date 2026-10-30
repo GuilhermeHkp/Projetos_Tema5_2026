@@ -290,33 +290,33 @@ O Projeto BELUGA possui funcionalidades destinadas à identificação, ao gerenc
 
 O sistema disponibiliza diferentes perfis de acesso, permitindo controlar as funcionalidades disponíveis para cada usuário.
 
-<img width="1500" height="500" alt="Login" src="https://github.com/user-attachments/assets/f2387393-908b-49eb-a557-5346b1faf8de" />
+<img width="1000" height="500" alt="Login" src="https://github.com/user-attachments/assets/f2387393-908b-49eb-a557-5346b1faf8de" />
 
 
 ### Câmera
 
 Permite realizar a captura e a identificação de objetos, utilizando visão computacional para processar as imagens e apresentar os resultados.
 
-<img width="1500" height="500" alt="camera" src="https://github.com/user-attachments/assets/f613829a-436f-42e4-ad14-31265fe686d1" />
+<img width="1000" height="500" alt="camera" src="https://github.com/user-attachments/assets/f613829a-436f-42e4-ad14-31265fe686d1" />
 
 ### Cadastro de peças
 
 Permite registrar e consultar informações relacionadas aos objetos. As operações de edição e exclusão são restritas aos usuários autorizados.
 
-<img width="1500" height="500" alt="cadastro" src="https://github.com/user-attachments/assets/b6ccf1ed-4601-4a26-9f0f-3a53efe72469" />
+<img width="1000" height="500" alt="cadastro" src="https://github.com/user-attachments/assets/b6ccf1ed-4601-4a26-9f0f-3a53efe72469" />
 
 ### Histórico
 
 Disponibiliza os registros das operações realizadas, permitindo consultar informações sobre os objetos identificados.
 
-<img width="1500" height="500" alt="histórico" src="https://github.com/user-attachments/assets/92253a36-cf68-4f74-9487-acb4ca246fad" />
+<img width="1000" height="500" alt="histórico" src="https://github.com/user-attachments/assets/92253a36-cf68-4f74-9487-acb4ca246fad" />
 
 
 ### Pesquisa
 
 Permite localizar produtos cadastrados por meio de recursos de busca e filtragem.
 
-<img width="1500" height="500" alt="pesquisa" src="https://github.com/user-attachments/assets/665c3a32-98b9-41df-ad69-998f6d09488d" />
+<img width="1000" height="500" alt="pesquisa" src="https://github.com/user-attachments/assets/665c3a32-98b9-41df-ad69-998f6d09488d" />
 ### Ajuda e Auxílio
 
 Prevê a utilização de recursos de suporte para auxiliar usuários que apresentem dificuldades durante a utilização do sistema.
