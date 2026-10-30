@@ -324,6 +324,10 @@ Prevê a utilização de recursos de suporte para auxiliar usuários que apresen
 
 <img width="1000" height="500" alt="Ajuda e auxilio_marcado" src="https://github.com/user-attachments/assets/7882683f-e508-4d18-a8fe-0a1d4cc132d5" />
 
+### Qr Code Lading in Page
+<img width="945" height="945" alt="qrcodenovo" src="https://github.com/user-attachments/assets/3e808e9b-b8a9-41e5-8767-b72bec23118c" />
+
+
 **Ferramentas de organização:**
 
 - [Jira – Gerenciamento das Sprints](https://cagiuso2.atlassian.net/jira/core/projects/GHCE/board?filter=&groupBy=status)
