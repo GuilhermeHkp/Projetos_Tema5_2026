@@ -15,7 +15,7 @@ O ecossistema utiliza uma câmera para capturar imagens de peças em tempo real,
 Após a identificação dos itens, as informações são processadas e transmitidas ao usuário via áudio (retorno por voz). Isso permite a consulta instantânea das características dos objetos e a realização de conferências de estoque de forma totalmente autônoma.
 Para oferecer uma experiência completa e integrada, a solução dispõe de funcionalidades como:
 - Cadastro de itens
-- Busca avançada
+- Busca 
 - Histórico de registros
 - Controle de acesso seguro
 
