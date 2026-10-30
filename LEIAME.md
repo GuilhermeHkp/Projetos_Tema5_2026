@@ -317,10 +317,12 @@ Disponibiliza os registros das operações realizadas, permitindo consultar info
 Permite localizar produtos cadastrados por meio de recursos de busca e filtragem.
 
 <img width="1000" height="500" alt="pesquisa" src="https://github.com/user-attachments/assets/665c3a32-98b9-41df-ad69-998f6d09488d" />
+
 ### Ajuda e Auxílio
 
 Prevê a utilização de recursos de suporte para auxiliar usuários que apresentem dificuldades durante a utilização do sistema.
 
+<img width="1000" height="500" alt="Ajuda e auxilio_marcado" src="https://github.com/user-attachments/assets/7882683f-e508-4d18-a8fe-0a1d4cc132d5" />
 ### Vídeo Expositivo
 
 
