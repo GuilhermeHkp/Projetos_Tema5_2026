@@ -149,7 +149,15 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
     </td>
   </tr>
 </table>
-
+Retorno em aúdio:
+A -> 1 Chave Phillips Encontrada
+B -> 1 Chave Inglesa Encontrada
+C -> 1 Chave fenda Encontrada
+D -> 1 parafuso 6cm Encontrada
+E -> 1 Parafuso 1,5cm Encontrada
+F -> 1 Prego Encontrada
+G -> 1 Porca Encontrada
+H -> 1 Phillips Encontrada
 
 
 
