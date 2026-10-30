@@ -137,10 +137,20 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 - Fundo: branco e cinza
 - Iluminação: luz natural e LED
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/afc66d77-de90-4f1c-bcf7-08f6aebff488" width="48%" alt="Captura de tela 2026-10-28 165214" /> ➔
-  <img src="https://github.com/user-attachments/assets/0a6f74af-b0bd-47ee-aa27-a6f18755b614" width="48%" alt="image" />
-</p>
+<table border="0" align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <img src="https://github.com" width="300" alt="Imagem original" />
+    </td>
+    <td align="center" valign="middle" style="font-size: 40px; padding: 0 20px;">
+      ➔
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://github.com" width="300" alt="Imagem marcada" />
+    </td>
+  </tr>
+</table>
+
 
 
 
