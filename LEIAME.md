@@ -118,7 +118,6 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 - Organização das últimas pendências e testes finais.
 
 ## 5. Recursos
-
 ## Equipamento utilizado
 
 - Processador: Intel Core i5-14500 — 2,60 GHz
@@ -140,16 +139,17 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 <table border="0" align="center">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github.com" width="350" alt="Ferramentas originais" />
+      <img src="https://github.com/user-attachments/assets/02c09111-ef59-48a5-a1ce-89646a01c52e" width="350" alt="Imagem 1" />
     </td>
     <td align="center" valign="middle" style="font-size: 45px; padding: 0 25px; color: #58a6ff;">
       ➔
     </td>
     <td align="center" valign="middle">
-      <img src="https://github.com" width="350" alt="Ferramentas demarcadas" />
+      <img src="https://github.com/user-attachments/assets/0f3e1554-71ea-474a-ad9c-148135334cdf" width="350" alt="Imagem 2" />
     </td>
   </tr>
 </table>
+
 
 
 
