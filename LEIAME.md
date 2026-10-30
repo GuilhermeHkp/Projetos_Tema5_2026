@@ -1,5 +1,5 @@
+<img width="1000" height="500" alt="apresentação BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
-<img width="80%" alt="Apresentação do Projeto BELUGA" src="https://github.com/user-attachments/assets/879bf2de-9a6d-4562-82ff-66277e852fe3" />
 
 # Projeto: BELUGA 2026
 **Empresa:** GCHE Solutions  
