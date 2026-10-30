@@ -139,13 +139,13 @@ Para oferecer uma experiência completa e integrada, a solução dispõe de func
 <table border="0" align="center">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://github.com/user-attachments/assets/02c09111-ef59-48a5-a1ce-89646a01c52e" width="350" alt="Imagem 1" />
+      <img src="https://github.com/user-attachments/assets/02c09111-ef59-48a5-a1ce-89646a01c52e" width="550" alt="Imagem 1" />
     </td>
-    <td align="center" valign="middle" style="font-size: 45px; padding: 0 25px; color: #58a6ff;">
+    <td align="center" valign="middle" style="font-size: 65px; padding: 0 25px; color: #58a6ff;">
       ➔
     </td>
     <td align="center" valign="middle">
-      <img src="https://github.com/user-attachments/assets/0f3e1554-71ea-474a-ad9c-148135334cdf" width="350" alt="Imagem 2" />
+      <img src="https://github.com/user-attachments/assets/0f3e1554-71ea-474a-ad9c-148135334cdf" width="550" alt="Imagem 2" />
     </td>
   </tr>
 </table>
