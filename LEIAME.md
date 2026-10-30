@@ -323,15 +323,6 @@ Permite localizar produtos cadastrados por meio de recursos de busca e filtragem
 Prevê a utilização de recursos de suporte para auxiliar usuários que apresentem dificuldades durante a utilização do sistema.
 
 <img width="1000" height="500" alt="Ajuda e auxilio_marcado" src="https://github.com/user-attachments/assets/7882683f-e508-4d18-a8fe-0a1d4cc132d5" />
-### Vídeo Expositivo
-
-
-
-
-
-
-
-
 
 **Ferramentas de organização:**
 
